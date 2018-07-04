@@ -1,0 +1,163 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("image/pexels-photo-532571.jpeg");
+    background-size: cover;
+}
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 97vh;
+}
+.inner {
+	width: 30vw;
+    height: 93vh;
+    background: rgba(255, 255, 255, 0.72);
+    border-radius: 10px;
+}
+.title {
+	width: 30vw;
+    height: 12vh;
+     display: flex;
+    align-items: center;
+    background: rgba(6, 234, 41, 0.38);
+    color: #ffffff;
+}
+.title h3{
+   padding-left: 8%;
+   font-size: 2em;
+}
+
+ .content{
+	border-bottom: 1px solid white;
+    height: 37vh;
+}
+.txt{
+    background: #fffefe;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 25vw;
+}
+.txt1 {
+	background: #fffefe;
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1 span{
+	padding-right: 2%;
+    padding-left: 2%;
+}
+
+#span{
+    margin-left: 3vw;
+    color: red;
+    font-size: 1.2em;
+}
+.glyphicon {
+	color: #b2b2b2;
+    font-size: 18px;
+}
+
+
+.content input{
+	width: 22vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+
+.content input[placeholder]{
+	font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.content2 input{
+	width: 11vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 0;
+}
+.content2 input[placeholder]{
+	font-size: 1.3em;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.radios {
+	background: rgb(255, 255, 255);
+    
+}
+
+.radios h4{
+	display: inline-block;
+    padding-left: 10%;
+    padding-right: 4%;
+    color: #868585;
+}
+.radios label{
+	font-size: 1.3em;
+    color: #8e8a8a;
+}
+.radios input{
+	margin-left: 8%;
+    margin-right: 2%;    
+}
+.ckbox {
+    height: 8vh;
+    border-bottom: 1px solid white;
+}
+.ckbox input{
+	margin-left: 8%;
+}
+.ckbox span{
+	font-size: 1.3em;
+    margin-left: 3%;
+}
+
+.btnsub {
+	text-align: right;
+}
+.btnsub input{
+	margin-right: 10%;
+    padding: 2% 6% 2% 6%;
+    margin-top: 3%;
+    background-color: rgb(206, 217, 255);
+    border: 0;
+    color: black;
+    
+}
+.btnsub input:hover{
+    background-color:#44ff44;
+}
+.errors {
+	position: absolute;
+    width: 20vw;
+    height: 70vh;
+    margin-left: 25%;
+    text-align: center;
+}
+p{
+	color: red;
+    margin-left: 4vw;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
